@@ -34,18 +34,17 @@ jobs:
           node-version: 20
           cache: "npm"
       - name: Install dependencies
-        working-directory: agilemate-core
+        working-directory: agilemate-core/app
         run: npm ci
       - name: Build project
-        working-directory: agilemate-core
+        working-directory: agilemate-core/app
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        working-directory: agilemate-core
         with:
-          path: "./dist"
+          path: agilemate-core/app/dist
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
