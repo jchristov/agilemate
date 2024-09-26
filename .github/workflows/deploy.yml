@@ -27,26 +27,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
+          # submodules: true
+          repository: jchristov/agilemate-core
+          ref: main
           token: ${{ secrets.CI_GITHUB_TOKEN }}
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: "npm"
-          cache-dependency-path: agilemate-core
+          # cache-dependency-path: agilemate-core
       - name: Install dependencies
-        working-directory: agilemate-core
+        # working-directory: agilemate-core
         run: npm ci
       - name: Build project
-        working-directory: agilemate-core
+        # working-directory: agilemate-core
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: agilemate-core/dist
+        # with:
+        #   path: agilemate-core/dist
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
