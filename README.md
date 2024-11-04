@@ -11,28 +11,28 @@ Planning Poker is a fun, interactive tool for agile estimation. It helps teams e
 - Customizable decks (e.g., Fibonacci, T-shirt sizing)
 - Auto-calculation of consensus estimates
 
-### 2. Retrospective Sessions
+### 2. Retrospectives
 Conduct insightful and productive retrospective sessions with your team to reflect on the sprint and identify areas for improvement. Our tool provides:
 - Ready-to-use retrospective templates (e.g., Start-Stop-Continue, 4Ls)
 - Collaborative feedback boards
 - Anonymous feedback support
 - Exportable results for future reference
 
-### 3. Team Surveys
+### 3. Surveys
 Quickly gather feedback from your team using customizable surveys. This tool supports:
 - Custom question creation (multiple-choice, rating, open-text)
 - Anonymous or named responses
 - Detailed results analytics with export options
 - Pre-built survey templates for agile health checks
 
-### 4. Team Quizzes
+### 4. Quizzes
 Test and enhance your team's agile knowledge with built-in quizzes. Useful for team training or self-evaluation, this feature includes:
 - Predefined quizzes based on agile methodologies
 - Custom quiz creation
 - Scoring and performance tracking
 - Time-bound quizzes for added challenge
 
-### 5. Timebox Timer
+### 5. Timer
 Keep your meetings and sessions on track with a dedicated agile timebox timer. Perfect for timeboxing sprint ceremonies such as standups, retros, and planning meetings. Features include:
 - Preset timers for common ceremonies
 - Customizable timebox duration
@@ -46,7 +46,7 @@ Keep your meetings and sessions on track with a dedicated agile timebox timer. P
 - Internet connection
 
 ### Installation
-This application is web-based, and no installation is required. Simply navigate to [your-website.com](https://your-website.com) to start using the tools.
+This application is web-based, and no installation is required. Simply navigate to [agilemate.org](https://agilemate.org) to start using the tools.
 
 ### Usage
 1. **Sign Up**: Create an account to unlock all features and enable team collaboration.
